@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Pet Shop</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Pet Shop</h1>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="AboutUs.html"><li class="active">About us</li></a>
+        <a href="Contact.html"><li>Contact</li></a>
+        <div class="dropdown">
+          <div onclick="showCont()" class="drop-header">
+            <p>Pets</p>
+          </div>
+          <div class="drop-cont">
+            <ul>
+              <li><a href="">Dogs</a></li>
+              <li><a href="">Cats</a></li>
+              <li><a href="">Fishes</a></li>
+              <li><a href="">Snakes</a></li>
+            </ul>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <main>
+      <section id="about-us" class="about-us">
+        <div class="container">
+          <h2>About Us</h2>
+          <p>
+            Welcome to <strong>My Pet Shop</strong>, your one-stop
+            destination for all your pet's needs! We are passionate about
+            providing top-quality products, professional services, and a loving
+            environment for pets and their owners.
+          </p>
+          <p>
+            Since our founding in 2000, we have been committed to offering the
+            best pet care essentials, including food, toys, grooming, and
+            veterinary services. Our mission is to keep your furry friends
+            happy, healthy, and thriving.
+          </p>
+          <p>
+            At <strong>My Pet Shop</strong>, we treat every pet as a
+            member of our family. Let us help you care for your beloved
+            companions!
+          </p>
+          <a href="#contact" class="btn">Visit Us Today</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Enjoy your Pet Shop</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

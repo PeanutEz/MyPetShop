@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Pet Shop</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Pet Shop</h1>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="AboutUs.html"><li>About us</li></a>
+        <a href="Contact.html"><li class="active">Contact</li></a>
+        <div class="dropdown">
+          <div onclick=showCont() class="drop-header">
+            <p>Pets</p>
+          </div>
+          <div class="drop-cont">
+            <ul>
+                <li><a href="">Dogs</a></li>
+                <li><a href="">Cats</a></li>
+                <li><a href="">Fishes</a></li>
+                <li><a href="">Snakes</a></li>
+            </ul>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <main>
+      <section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Reach out to us using the information below or visit our shop.</p>
+    
+    <div class="contact-info">
+      <div class="info-item">
+        <h3>Address</h3>
+        <p>123 Pet Street, Happy City, Country</p>
+      </div>
+      <div class="info-item">
+        <h3>Phone</h3>
+        <p><a href="tel:+123456789">+123 456 789</a></p>
+      </div>
+      <div class="info-item">
+        <h3>Email</h3>
+        <p><a href="mailto:info@petshop.com">haha@petshop.com</a></p>
+      </div>
+      <div class="info-item">
+        <h3>Working Hours</h3>
+        <p>Mon - Sat: 9:00 AM - 7:00 PM<br>Sun: 10:00 AM - 5:00 PM</p>
+      </div>
+    </div>
+
+    <form class="contact-form">
+      <h3>Send Us a Message</h3>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+    </main>
+    <footer>
+      <p>Enjoy your Pet Shop</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

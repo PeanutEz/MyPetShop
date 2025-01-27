@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Pet Shop</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Pet Shop</h1>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li class="active">Home</li></a>
+        <a href="AboutUs.html"><li>About us</li></a>
+        <a href="Contact.html"><li>Contact</li></a>
+        <div class="dropdown">
+          <div onclick=showCont() class="drop-header">
+            <p>Pets</p>
+          </div>
+          <div class="drop-cont">
+            <ul>
+                <li><a href="">Dogs</a></li>
+                <li><a href="">Cats</a></li>
+                <li><a href="">Fishes</a></li>
+                <li><a href="">Snakes</a></li>
+            </ul>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <main>
+      <h1>Top the most valuable pets</h1>
+      <ul class="display-pets">
+        <li class="pet">
+          <img src="./imgs/dog.webp" alt="" />
+          <div class="pet-info">
+            <p><b>Type: </b> Dog</p>
+            <p><b>Name: </b> Milo</p>
+            <p><b>Cost: </b> 150$</p>
+          </div>
+        </li>
+
+        <li class="pet">
+          <img src="./imgs/cat.jpg" alt="" />
+          <div class="pet-info">
+            <p><b>Type: </b> Cat</p>
+            <p><b>Name: </b> Milk</p>
+            <p><b>Cost: </b> 270$</p>
+          </div>
+        </li>
+
+        <li class="pet">
+          <img src="./imgs/Fish.jpg" alt="" />
+          <div class="pet-info">
+            <p><b>Type: </b> Fish</p>
+            <p><b>Name: </b> Bill</p>
+            <p><b>Cost: </b> 500$</p>
+          </div>
+        </li>
+
+        <li class="pet">
+          <img src="./imgs/snake.jpg" alt="" />
+          <div class="pet-info">
+            <p><b>Type: </b> Snake</p>
+            <p><b>Name: </b> Mia</p>
+            <p><b>Cost: </b> 360$</p>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <p>Enjoy your Pet Shop</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
